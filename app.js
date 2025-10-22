@@ -8,7 +8,7 @@
  * @returns {string} The welcome message
  */
 function getWelcomeMessage() {
-    return "Welcome to Awarehouse!";
+    return "Welcome use!";
 }
 
 /**
