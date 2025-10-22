@@ -1,0 +1,36 @@
+{
+  "name": "awarehouse-cicd-demo",
+  "version": "1.0.0",
+  "description": "CI/CD demo project for Awarehouse club presentation",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "ci-cd",
+    "github-actions",
+    "javascript",
+    "jest",
+    "demo"
+  ],
+  "author": "Awarehouse Club",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "collectCoverageFrom": [
+      "app.js",
+      "!**/node_modules/**"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ]
+  }
+}

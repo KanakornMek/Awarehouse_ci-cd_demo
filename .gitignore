@@ -1,0 +1,60 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Build artifacts
+build/
+dist/
+public/build/
+public/dist/
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Compiled files
+*.js.map
+*.ts.map
+*.flow
+
+# Other temporary files
+tmp/
+temp/
+*.log
+
+# Uploads
+uploads/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Yarn integrity file
+.yarn-integrity
+
+# Next.js specific
+.next/
+
+# SvelteKit specific
+.svelte-kit/
